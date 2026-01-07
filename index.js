@@ -52,7 +52,7 @@ app.get("/xrpc/app.bsky.feed.getFeedSkeleton", async (req, res) => {
 
     // ① #八戸 の投稿
     const tagResult = await agent.app.bsky.feed.searchPosts({
-      q: "八戸",
+      q: "#過疎スタ",
       limit:100
     });
 
