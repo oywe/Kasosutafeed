@@ -30,11 +30,11 @@ let cache = {
 app.get("/.well-known/did.json", (req, res) => {
   res.json({
     "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:web:hatinohe-eed-oywe667-6syvp0ml.leapcell.dev",
+    "id": "did:web:asosutafeed-oywe667-ohq0ozdi.leapcell.dev",
     "service": [
       {
         "id": "#bsky_fg",
-        "serviceEndpoint": "https://hatinohe-eed-oywe667-6syvp0ml.leapcell.dev",
+        "serviceEndpoint":"https://asosutafeed-oywe667-ohq0ozdi.leapcell.dev",
         "type": "BskyFeedGenerator"
       }
     ]
